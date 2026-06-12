@@ -1,22 +1,41 @@
-# Soroban Project
+# GreenLoop – Community Exchange & Reward Platform
 
-## Project Structure
+## Problem
 
-This repository uses the recommended structure for a Soroban project:
+Many students and community members have unused items or recyclable materials but lack a transparent and rewarding system to exchange them efficiently.
 
-```text
-.
-├── contracts
-│   └── hello_world
-│       ├── src
-│       │   ├── lib.rs
-│       │   └── test.rs
-│       └── Cargo.toml
-├── Cargo.toml
-└── README.md
-```
+## Solution
 
-- New Soroban contracts can be put in `contracts`, each in their own directory. There is already a `hello_world` contract in there to get you started.
-- If you initialized this project with any other example contracts via `--with-example`, those contracts will be in the `contracts` directory as well.
-- Contracts should have their own `Cargo.toml` files that rely on the top-level `Cargo.toml` workspace for their dependencies.
-- Frontend libraries can be added to the top-level directory as well. If you initialized this project with a frontend template via `--frontend-template` you will have those files already included.
+GreenLoop is a blockchain-based platform on Stellar that rewards users with tokens for contributing items and recycling materials, allowing them to exchange those tokens for other goods within the community.
+
+## Why Stellar
+
+Stellar enables fast, low-cost, and transparent transactions, making it ideal for managing reward tokens and tracking exchanges on-chain.
+
+## Target User
+
+* Students
+* School clubs and organizations
+* Community groups
+* Recycling programs
+* Local sharing networks
+
+## Live Demo
+
+* Network: Stellar Testnet
+
+* **Contract ID**: CAEZXASC3KFVHYXIJ47OSHXR3QL4FL3BNID2B4PTCSLONSNOZ476DXNY
+
+* **Transaction**: bef88f817f7eb4e360de8e9473c77ae2a1c3c0188f0d1e1a2f6628eeb9298a20
+
+
+## Tech Stack
+
+* Smart Contract: Rust / Soroban SDK v22
+* Frontend: HTML / JavaScript / @stellar/stellar-sdk
+* Wallet: Freighter
+* Network: Stellar Testnet
+
+## Team
+
+* Huỳnh Quang Hiệp | Student Developer | GitHub: https://github.com/kayzul
